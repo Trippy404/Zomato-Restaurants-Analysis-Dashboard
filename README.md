@@ -1,84 +1,87 @@
-#🍽️ Zomato Restaurants Analysis – Power BI Dashboard
+# 🍽️ Zomato Restaurants Analysis – Power BI Dashboard
 
-🎯 Project Objective
+![Zomato Dashboard](Zomato%20Dashboard.png)
 
-The main purpose of creating this Zomato Restaurants Analysis Dashboard was to analyze restaurant performance, customer ratings, and cuisine popularity across various cities using real-world data from Kaggle.
-I wanted to understand how factors like online delivery, table booking, and cuisine type affect restaurant ratings and customer engagement.
+## 🎯 Project Objective
+The main objective of this project is to analyze **Zomato restaurant data** and gain insights into restaurant performance, customer ratings, and cuisine popularity across different cities.  
+This dashboard helps understand how features like **online delivery**, **table booking**, and **cuisine type** influence customer satisfaction and business reach.
 
-💡 Why I Made This Dashboard
+---
 
-As a data analytics enthusiast, I wanted to build a project that demonstrates:
+## 💡 Purpose of the Dashboard
+I created this dashboard as a student project to demonstrate:
+- My ability to handle **real-world datasets** from Kaggle.  
+- How I can use **Power BI** to transform raw data into **interactive and meaningful visual insights**.  
+- My understanding of **KPIs, data modeling, and storytelling with data**.  
 
-My ability to collect, clean, and visualize real-world data.
+The purpose was to showcase **data-driven decision-making** that could help platforms like Zomato identify trends and improve their restaurant strategies.
 
-How I can use Power BI to convert raw data into meaningful business insights.
+---
 
-My understanding of KPIs, data modeling, and storytelling with visuals.
+## 🧾 Data Source
+- **Dataset:** Zomato Restaurants Data  
+- **Source:** [Kaggle](https://www.kaggle.com/)  
+- **Key Columns:**  
+  Restaurant Name, Country, City, Cuisines, Rating, Votes, Online Delivery, Table Booking  
 
-This project showcases how data-driven insights can help restaurant businesses like Zomato improve customer experience and operational decisions.
+---
 
-🧾 Data Source
+## 🛠️ Tools & Techniques Used
+- **Power BI Desktop** – For data cleaning, modeling, and visualization  
+- **Power Query Editor** – For data transformation and preparation  
+- **DAX (Data Analysis Expressions)** – For creating calculated measures and KPIs  
+- **Interactive Filters & Slicers** – For exploring insights by country and year  
 
-Dataset: Zomato Restaurants Data
+---
 
-Source: Kaggle
+## 📊 Key Insights
+- 🍴 **918 Restaurants** analyzed from **36 Cities** in **1 Country**  
+- ⭐ **Average Rating:** 2.82  
+- 🗳️ **Total Votes:** 137K+  
+- 🍲 **Total Cuisines:** 293  
+- 🛵 Only **12%** of restaurants provide **Online Delivery**  
+- 🍽️ Around **87%** allow **Table Booking**  
+- 🌟 **Top Cuisines:** North Indian, Chinese, and Fast Food  
+- 📍 **Most restaurants** are concentrated in metro cities  
 
-Columns include: Restaurant name, country, city, cuisines, rating, votes, online delivery, and table booking details.
+---
 
-🛠️ Tools & Techniques Used
+## 📈 Dashboard Features
+1. **KPI Cards** – Display total restaurants, cities, average rating, votes, and cuisines  
+2. **Map Visualization** – Shows restaurant locations by city  
+3. **Cuisine-wise Rating Chart** – Compares cuisine count with average rating  
+4. **Pie Charts** – Represent online delivery and table booking availability  
+5. **Bar Chart** – Shows top cuisines by restaurant count  
+6. **Slicers** – Allow dynamic filtering by **Country** and **Year**
 
-Power BI Desktop for data cleaning, modeling, and visualization
+---
 
-DAX (Data Analysis Expressions) for KPI calculations
+## 🧠 Learnings
+While working on this project, I learned how to:
+- Perform **data cleaning and transformation** in Power BI  
+- Build **interactive dashboards** and connect visuals through filters  
+- Use **DAX** for calculated fields and KPIs  
+- Derive **actionable insights** from restaurant and customer data  
+- Tell a compelling story through data visualization  
 
-Power Query Editor for data transformation and handling null values
+---
 
-Interactive Filters and Slicers to explore data by country and year
+## 🚀 Future Enhancements
+- Integrate live data using the **Zomato API** for real-time insights  
+- Add **forecasting and trend analysis** on customer ratings  
+- Include **sentiment analysis** using customer reviews  
+- Expand analysis to multiple countries for global comparison  
 
-📊 Key Insights & Findings
+---
 
-Total Restaurants: 918 across 36 cities and 1 country
+## 👨‍💻 About Me
+**Author:** Satyasuman Sahoo  
+**Role:** Data Analyst (Student Project)  
+**Skills:** Power BI | Excel   
+**LinkedIn:** [Satyasuman Sahoo](https://www.linkedin.com/in/satyasuman-sahoo-a79685235/)
 
-Average Rating: 2.82 out of 5
+---
 
-Most Common Cuisine: North Indian
 
-Customer Votes: Over 137K votes recorded
 
-Online Delivery: Only 12% of restaurants offer it
 
-Table Booking: Around 87% allow table reservations
-
-Top-Rated Cuisines: Chinese and Fast Food categories show higher ratings
-
-📈 Dashboard Highlights
-
-KPI Cards: Summarize restaurant count, cities, ratings, and cuisines
-
-Map Visualization: Displays restaurant distribution across countries
-
-Cuisine-wise Analysis: Compares cuisine count with average rating
-
-Pie Charts: Show online delivery and table booking availability
-
-Bar Chart: Highlights most popular cuisines by restaurant count
-
-🧠 What I Learned
-
-Through this project, I learned:
-
-How to perform data cleaning and transformation using Power BI.
-
-How to design a professional and interactive dashboard with slicers and KPIs.
-
-How to interpret and present business insights effectively.
-
-The importance of data storytelling in making reports actionable.
-
-🚀 Future Enhancements
-
-Connect the dashboard to Zomato’s live API for real-time updates.
-
-Include customer sentiment analysis using reviews or text data.
-
-Add forecasting visuals for predicting customer ratings and trends.
